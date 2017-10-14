@@ -9,6 +9,9 @@ app.config(function($routeProvider,$locationProvider){
     }).when("/course",{
         templateUrl:"course2.html",
 //        controller:"loginCtrl"
-    }).otherwise({template:"Error Page , No Match Found"
+    }).when("/universities",{
+        templateUrl:"UniversityList.html"
+    }
+    ).otherwise({template:"Error Page , No Match Found"
         ,redirectTo:"/"});
 });
