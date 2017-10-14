@@ -428,9 +428,9 @@ body::-webkit-scrollbar{
 .nav_bar .nav>li>a{
     color:black;
     background:white;
-    font-weight:600; 
+    font-weight:500; 
     border-radius:3px;
-    margin:8px 0px; 
+    margin:5px 0px; 
 }
 
 .nav_bar .nav>li>a:hover,.nav_bar .nav>li>a.active{
@@ -466,9 +466,13 @@ font-size:15px;
     padding:0px;
     width:calc(100% - 580px);
 }
-.nav_bar , .events_box{
+.events_box{
     position: sticky;
     top:60px;
+}
+.nav_bar{
+    position: sticky;
+ position: 10px;   
 }
 .events_box{
     width:350px;
