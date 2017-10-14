@@ -1,0 +1,108 @@
+body{
+    font-size: 16px;
+/*    color:#2e3d49;*/
+    
+    font-family: 'Open Sans', sans-serif;
+/*    background-color: #E9EBEE;*/
+    
+}
+
+.blue{
+    color:#02b3e4!important;
+    font-size:36px;
+    padding:20px 0px;
+}
+
+.current_course{
+    background: #1C262F;
+    color: white;
+    padding: 10px;
+    margin:0px;
+    font-size:40px;
+}
+.score_row,.job,.avg_sal,.posts{
+    padding:0px 0px 20px; 
+    background-color: white;
+}
+
+.add_to_interest button{
+    position:fixed;
+    bottom:15px;
+    right:15px;
+    width:88px;
+    height:88px;
+    border-radius:50px;
+    z-index:100;
+}
+.add_to_interest .fa{font-size: 24px;
+/*    margin-bottom: 5px;*/
+}
+.score_row{
+    margin: 20px 0px;
+}
+.score_row h2{
+    margin:10px 0px;
+    border-bottom:1px solid #ccc;
+}
+.avg_sal{
+    
+}
+
+.job{
+    
+}
+
+.posts{
+    
+}
+.card_box{
+    border-radius: 6px;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+}
+
+.posts .post_box{
+/*    box-shadow:5px 5px 15px 0 rgba(0,0,0,0.15);    */
+    border-radius: 6px;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+    padding:10px 10px;
+    border-radius: 5px;
+    margin:20px 0; 
+    background-color: white;
+}
+.posts .post_img img{
+    max-height:200px;
+    display: inline-block;
+}
+.posts .post_img{
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
+.posts .post_desc h4{
+    font-weight:600;
+}
+
+/********************************************course 2 css******************************************************/
+.info_row{
+    padding:50px 0px;
+}
+.info_row .text-box p{
+    max-height:90px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    padding:0px 30px;
+}
+.info_row.left .text-box{
+    float:right; 
+}
+.course_info{
+    padding: 30px 0px;
+}
+.border-bottom{
+    border-bottom: 1px solid #ccc;
+}
+.course .nav{
+    margin-top: 20px;
+}
+.course .nav>li>a{
+    padding: 20px;
+}
