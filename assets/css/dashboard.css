@@ -471,8 +471,8 @@ font-size:15px;
     top:60px;
 }
 .nav_bar{
-    position: sticky;
- position: 10px;   
+ position:sticky;
+ position:10px;   
 }
 .events_box{
     width:350px;

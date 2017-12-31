@@ -1,0 +1,119 @@
+body{
+    background-color:#F7F7F7;
+}
+header{
+    background-color: rgb(22, 134, 217);
+    color: white;
+}
+header .nav{
+    color: blue;
+    background: white;
+    margin-bottom: 0px;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+a{
+    color: inherit;
+}
+.info{
+    background-image: url('../images/1-min.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.info h2,.info h3{
+    line-height:40px;
+    padding:20px 25px;
+    border-radius: 8px;
+    margin:25px 0px;
+    font-family:cursive;
+}
+.info h3{ 
+    padding:5px 15px 15px;
+    margin:10px;}
+.info h2{
+    color: white;
+    background:#02B5E0;
+}
+.thumbnail .form-control{
+    display:inline-block;
+    width: auto;
+    width:200px;
+}
+.thumbnail .badge{
+    padding:7px 10px;
+    background:rgb(22, 134, 217);
+}
+.filters,.thumbnail{
+    background: #fff;
+    box-shadow: 12px 15px 20px 0 rgba(46,61,73,.15);
+    border-radius:8px;
+    transition: all .3s ease;
+    padding: 20px;
+}
+
+.filters .row>.col-xs-12,.thumbnail .row>.col-xs-12{
+    margin-bottom: 15px;
+}
+
+.thumbnail{
+    background-color: rgba(2,179,228,.8);
+}
+.post{
+ margin:30px 0px;
+ border-radius:8px;
+ border: 1px solid #ccc;
+    padding:15px 10px;
+    border-top:4px solid;
+    background: white;
+    box-shadow:0px 0px 15px 0px #ccc;
+}
+.post .label{
+    font-size: 12px;
+}
+.white{
+    color: white;
+}
+.post .poster-name,.post .username{
+    color:rgb(22, 134, 217);
+}
+.post .time,.post .text-grey{
+    color:darkslategray;    
+}
+
+.post .question{
+padding:20px 40px 0px;
+    text-align: center;
+    font-size: 18px;
+    line-height:24px;
+}
+.post .answer{
+    margin-bottom: 15px;
+}
+.post .answer .time{
+    
+}
+.blue{
+    color:#02B8DC;
+}
+
+.green{
+    border-top-color:green;
+} 
+
+.red{
+    border-top-color: red;
+}
+.success{
+    border-top-color:#5CB85C; 
+}
+.info{
+    border-top-color:#5BC0DE; 
+}
+.warning{
+    border-top-color:#F0AD4E; 
+}
+.primary{
+    border-top-color:#337AB7; 
+}
