@@ -11,5 +11,6 @@ $(document).ready(function(){
                           break;
         }
     });
+//    $(".events_box").show();
     
 });
