@@ -16,10 +16,8 @@ jQuery.extend( jQuery.easing,
 $(function(){
     $('.navbar').affix({
 
-        offset: {
-            /* Affix the navbar after scroll below header */
+        offset:{
             top: $("header").outerHeight(true)
-
         }
     });
 
@@ -67,17 +65,17 @@ $(document).ready(function(){
     });
     var scroll_start = 0;
     var startchange = $('.navbar');
-    var offset = startchange.offset();
-     if(startchange.length){
-         $(document).scroll(function () {
-             scroll_start = $(this).scrollTop();
-             if(scroll_start > offset.top){
-                 $('.navbar').css('background-color', '#1686d9');
-             }
-             else{
-                 $('.navbar').css('background-color', 'rgba(0,0,0,0.3)');
-             }
-         });
-     }
+//    var offset = startchange.offset();
+//     if(startchange.length){
+//         $(document).scroll(function () {
+//             scroll_start = $(this).scrollTop();
+//             if(scroll_start > offset.top){
+//                 $('.navbar').css('background-color', '#1686d9');
+//             }
+//             else{
+//                 $('.navbar').css('background-color', 'rgba(0,0,0,0.3)');
+//             }
+//         });
+//     }
 
 });
