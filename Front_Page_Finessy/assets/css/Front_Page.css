@@ -12,9 +12,6 @@ body{
 .pageguest{
     font-family: 'Lato', sans-serif;
 }
-body .container-fluid{
-    margin:0px;
-}
 
 body header{
     background-color: #f2f2f2;
@@ -36,8 +33,9 @@ body header{
  .navbar{
     background-color: rgba(0,0,0,0.3);
      border-radius: 0;
-     padding-bottom: 15px;
-     padding-top: 0.7%;
+/*     padding-bottom: 15px;*/
+/*     padding-top: 0.7%;*/
+     margin:0px; 
 }
 #myNavbar1 ul li a{
     color: rgba(255,255,255,0.8);
@@ -66,29 +64,38 @@ body header{
 #myNavbar2 ul li a:checked{
     color: white;
 }
-.nav li button{
-    margin-top: 12px;
+.navbar-right.nav li a.btn{
     background-color: transparent;
     color: rgba(255,255,255,0.8);
+    margin: 0px 3px;
+    padding: 12px 10px;
+    min-width:40px;
+    text-align: center;
     border:1px solid rgba(255,255,255,0.5);
+}
+.mg-0{
+    margin: 0px;
+    padding-right: 0px;
 }
 .nav li button:hover{
     color: white;
 }
-.nav li{
-    margin-left: 20px;
+.navbar{
+    width: 100%;
+    z-index:1000;
+    top:0px;
+    left: 0px;
+    position: fixed;
+    background: #00293D;
 }
 .navbar-header button span{
   color: white;
-  border: 1px solid rgba(255,255,255,0.6);
-  padding: 5px;
+  border:2px solid rgba(255,255,255,0.6);
+  padding:1px;
 }
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+.navbar-toggle{
+    margin:6px 15px 6px 0px; 
 }
-
 .tiles1 {
     background: url(../images/1-min.jpg);
     background-repeat: no-repeat;
@@ -361,7 +368,7 @@ footer > .row > .col-sm-6 > h5{
     }
 }
 .animate-box{
-    opacity: 0;
+/*    opacity: 0;*/
 }
 .animated {
     -webkit-animation-duration: 1s;
@@ -407,7 +414,8 @@ footer > .row > .col-sm-6 > h5{
 }
 .aboutus > .container{
     background-color: rgba(0,0,0,0.4);
-    margin-top: 6%;
+/*    padding-top/: 6%;*/
+    padding:6% 30px; 
 }
 .aboutus > .container > h3{
     font-family: 'Lato', sans-serif;
