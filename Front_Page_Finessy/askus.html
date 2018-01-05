@@ -5,7 +5,7 @@
 <div class="info">
    <div class="container">
     
-    <h1 class="text-center box">Welcome to ASK US platform</h1>
+    <h1 class="text-center box">Welcome to ASK ANYTHING</h1>
 
     <h2 id="typed">Feel Free To Post Any Questions Related To Your Study ABROAD DREAM.</h2>
 
@@ -14,22 +14,51 @@
         <h3 class="blue">TO Join A Specific Community Discusiion Page , Choose The Options Below :</h3>
            <div class="table">
             <div class="row">
-                <div class="col-xs-10">
+                <div class="col-xs-12 col-sm-10">
                 <div class="col-sm-6 col-md-6 mg-bt-10">
-                    <input type="text" id="degree" placeholder="Enter Degree" class="form-control">
+                    <input type="text" id="degree" list="degre" placeholder="Enter Degree" class="form-control">
+                    <datalist id="degre">
+                        <option value="Bachelors"><option value="Masters"><option value="PhD"><option value="Others">
+                    </datalist>
                 </div>
                 <div class="col-sm-6 col-md-6 mg-bt-10">
-                    <input type="text" id="program" placeholder="Enter Program" class="form-control">
+                    <input type="text" id="program" list="pro" placeholder="Enter Program" class="form-control">
+                    <datalist id="pro">
+                        <option value="Agriculture">
+                        <option value="Accounting"><option value="Agricultural Sciences"><option value="Allied health">
+                    </datalist>
                 </div>
                 <div class="col-sm-6 col-md-6">
-                    <input type="text" id="country" class="form-control" placeholder="Enter Country">
+                    <input type="text" id="region" list="reg" class="form-control" placeholder="Enter Region">
+                    <datalist id="reg">
+                       <option value="USA">
+                        <option value="CANADA">
+                        <option value="LATIN AMERICA">
+                        <option value="EUROPE">
+                        <option value="ASIA">
+                        <option value="AFRICA">
+                        <option value="ARAB WORLD">
+                        <option value="OCEANIA">
+                    </datalist>
                     </div>
-                <div class="col-sm-6 col-md-6">
-                    <input type="text" id="univ" placeholder="Enter University" class="form-control">
+                <div class="col-sm-6 col-md-6 mg-bt-10">
+                    <input type="text" id="univ" list="uni" placeholder="Enter University" class="form-control">
+                    <datalist id="uni">
+                        <option value="Demo university">
+                    </datalist>
+                </div>
+                <div>
+                   <div class="col-sm-6 col-md-6" style="float:none;margin:auto;">
+                    <input type="text" id="nc" list="ncl" placeholder="Enter Native Country (optional)" class="form-control">
+                    <datalist id="ncl">
+                        <option value="Delhi">
+                    </datalist>
                 </div>
                 </div>
-                <div class="col-xs-2" style="margin-top:15px;">
-                    <button class="btn btn-info btn-lg" style="font-size:28px;width:100%;padding:15px;border-radious:2px"> <i class="fa fa-search"></i> Apply</button>
+                </div>
+                <div class="col-xs-12 col-sm-2 go" style="margin-top:15px">
+                    <button class="btn btn-info btn-lg" style="font-size:28px;width:100%;padding:15px;border-radious:2px">
+                    <i class="fa fa-search"></i> Go</button>
                 </div>
             </div>
             <div class="row" style="margin:0px;">
@@ -49,14 +78,14 @@
     <h2 class="text-center white">
         Welcome To The General Discussion Page .
     </h2>
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-xs-6 col-sm-6">
             <strong>Sort : </strong><select name="" id="" class="form-control">
                     <option value="">a</option>
                     <option value="">b</option>
                     <option value="">c</option>
                 </select>
             </div>
-            <div class="col-xs-12 col-sm-6 text-right">
+            <div class="col-xs-6 col-sm-6 text-right">
                 <a class="btn btn-success">
                     <i class="fa fa-plus"></i>
                     Add To Interest
@@ -66,11 +95,11 @@
         
         <div class="row box thumb2">   
             <div class="col-xs-12 mg-bt-10">
-               Ask A Question :
+               <h4>Ask A Question :</h4>
                <input type="text" class="form-control" placeholder="Enter Question"> 
             </div>
             <div class="col-xs-12 mg-bt-10">
-                Question Tags :
+                 <div class="mg-bt-10">Question Tags</div>
                 <input type="text" class="form-control" placeholder="Enter Tags" list="lii">
                 <datalist id="lii">
                       <option value="Profile">
@@ -117,7 +146,7 @@
 <!--</div>-->
 
 <div class="posts-container">
-    <div class="col-sm-12 col-sm-8">
+    <div class="col-xs-12 col-sm-8">
      
     <div class="row post box success">
         <div class="col-xs-12 col-md-6">
