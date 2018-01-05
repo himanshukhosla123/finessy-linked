@@ -4,7 +4,7 @@ app.config(function($routeProvider,$locationProvider){
         templateUrl:"front_page.html",
 //        controller:"homeCtrl"
     }).when("/dashboard",{
-        templateUrl:"../dashboard.html",
+        templateUrl:"dashboard.html",
 //        controller:"homeCtrl"
     }).when("/course",{
         templateUrl:"course2.html",
