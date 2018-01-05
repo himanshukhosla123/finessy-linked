@@ -15,6 +15,7 @@
     <script src="assets/libs/angular-route.min.js"></script>
     <script src="assets/module/app.js"></script>
     <script src="assets/config/SPA-route.js"></script>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
 </head>
 <body class="pageguest" ng-app="finessy">
 <!--<header>-->
@@ -22,7 +23,7 @@
 
   <div class="tiles1">
       <nav class="navbar" id="navbar1">
-          <div class="container-fluid">
+          <div class="container">
               <div class="navbar-header">
                   <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#myNavbar1">
                       <span class="fa fa-list-alt"></span>
@@ -30,6 +31,9 @@
                   <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#myNavbar2">
                       <span class="fa fa-user"></span>
                   </button>
+                  <a class="" href="#">
+                    <img alt="Brand" class="img-responsive" style="height:60px;margin:-5px 0px -15px;" src="assets/images/logo.jpeg">
+                  </a>
               </div>
               <div class="collapse navbar-collapse col-sm-6" id="myNavbar1">
                   <ul class="nav navbar-nav">
@@ -41,7 +45,8 @@
               </div>
               <div class="collapse navbar-collapse pull-right col-sm-6" id="myNavbar2">
                   <ul class="nav navbar-nav">
-                      <li>
+                      <li><a onclick='$(".events_box").toggle();'><i class="fa fa-bell"></i></a></li>
+                        <li>
                           <button type="button" class="btn">
                               <span class="fa fa-graduation-cap"></span>&nbsp;
                               &nbsp;Sign Up
@@ -59,7 +64,7 @@
       </nav>
   </div>
   
-  <ng-view class="row" style="padding-top:80px;display:block;">
+  <ng-view class="row" style="padding-top:74px;display:block;">
 >
     
   </ng-view>
