@@ -68,6 +68,16 @@ header nav>li>a{
     
 }
 
+.events_box{
+    position: fixed;
+    top:100px;
+    right:20px;
+    width:350px;
+    z-index:100;
+    width:350px;
+    padding:0px 0px 0px 20px;
+    
+}
 
 .events_box .box{
     padding:0px 10px 10px; 
@@ -467,16 +477,14 @@ font-size:15px;
     width:calc(100% - 580px);
 }
 .events_box{
-    position: sticky;
-    top:60px;
+/*    position: sticky;*/
+/*    top:60px;*/
 }
 .nav_bar{
  position:sticky;
  position:10px;   
 }
 .events_box{
-    width:350px;
-     padding:0px 0px 0px 20px;
 }
 .padd_10{
     padding:10px;
