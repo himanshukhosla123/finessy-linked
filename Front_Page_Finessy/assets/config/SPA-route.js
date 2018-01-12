@@ -12,6 +12,9 @@ app.config(function($routeProvider,$locationProvider){
     }).when("/universities",{
         templateUrl:"UniversityList.html"
     })
+    .when("/onequestion",{
+        templateUrl:"SingleQuestion.html"
+    })
     .when("/aboutus",{
         templateUrl:"aboutuspage.html"
     }).when("/contactus",{
