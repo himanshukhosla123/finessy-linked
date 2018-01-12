@@ -277,7 +277,7 @@ hr{
     border-radius: 50%;
 }
 footer{
-    background-color: #f2f2f2;
+    background-color:#00293D;
     width:100%;
 }
 footer > .row {
@@ -286,20 +286,23 @@ footer > .row {
     padding-top: 2%;
     padding-bottom: 2%;
     font-weight: 900;
-
 }
+
 footer > .row > .col-sm-6 > h4 {
     font-weight: 700;
-    color: #1686d9;
+    color: white;
     margin-bottom: 5%;
 }
 footer > .row > .col-sm-6 > h4 > a{
     font-weight: 700;
-    color: #1686d9;
+    color: white;
     margin-bottom: 5%;
 }
+footer *{
+    color:white;
+}
 footer > .row > .col-sm-6{
-    border-right: 1px solid lightgray;
+    border-right: 1px solid white;
     line-height: 1.5;
 }
 footer > .row > .col-sm-6 > h5{
